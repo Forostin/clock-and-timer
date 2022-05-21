@@ -1,0 +1,60 @@
+body{
+       background: #8989c7; 
+}
+
+#wrapContainerTimer{
+       display: flex;
+       flex-direction: row-reverse;
+       justify-content: space-around;
+}
+
+
+#clock {
+       width: 30vw;
+       height: 30vw;
+       background-image: url(images/clock.png); 
+       background-size:contain; 
+       margin: 100px auto;
+       position: relative;}
+
+#sec, #min {
+       transform: rotate(-22deg);
+       width: 100%; 
+       position: absolute;
+}
+#hour {
+       transform: rotate(-15deg);
+       width: 100%; 
+       position: absolute;
+}
+
+.wrap {
+       background: green; width: 30vw; height: 30vw; margin: 0px auto;
+       border-radius: 100%;
+       -webkit-box-shadow: 25px 25px 30px 0px rgba(76, 53, 50, 1);
+       -moz-box-shadow:    25px 25px 30px 0px rgba(76, 53, 50, 1);
+       box-shadow:         25px 25px 30px 0px rgba(76, 53, 50, 1);
+}
+
+#containerTimer{ 
+       width: 40vw; 
+       height: -1vw; 
+       float: right;  
+       background: #c6e3d0; 
+       text-align: center; 
+}
+p { 
+       font-size: 30px; 
+       margin: 5px;
+       text-align: center;
+       letter-spacing: 5px;
+       color: #090d9e;
+       background: #c6e3d0;
+}
+form {  
+       display: flex; 
+       flex-direction: column; 
+       width: 100%; 
+       background: #ccc;
+
+}
